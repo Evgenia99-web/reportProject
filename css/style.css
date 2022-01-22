@@ -1,0 +1,55 @@
+body{
+    background-color: #181738; 
+    color: white; 
+    font-family: 'Roboto';
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{text-decoration: none; color: white;}
+section, footer{margin-bottom: 150px; text-align: center;}
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.logo{margin-right: 30px;}
+.menu-item{margin-left: 20px;}
+.main-title, .subtitle{text-align: center;}
+.main-title{    font-size: 72px; margin-top: 200px;}
+.subtitle{font-size: 32px; margin-bottom: 200px;}
+.title{font-size: 58px;}
+.description{font-size: 28px; font-style: italic;}
+.team-list{justify-content: space-around;}
+.team-item{
+    max-width: 17%;
+    text-align: center;
+    margin-right: 30px;
+}
+.avatar{width: 100%; border-radius: 50%;}
+.steps-list{justify-content: space-around; align-items: baseline;}
+.step-item{max-width: 25%;}
+.step-icon{width: 50%;}
+.step-name{
+    font-size: 28px;
+    font-weight: bold;
+}
+.end div{margin-bottom: 100px;}
+.less-title{font-size: 28px;}
+.link-item{max-width: 33%;}
+.links-list{justify-content: center;}
+.github{width: 50%;}
+.links h3{margin-bottom: 50px;}
+.link-name{font-size: 20px;}
